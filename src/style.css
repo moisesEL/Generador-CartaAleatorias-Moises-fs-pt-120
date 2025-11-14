@@ -1,5 +1,78 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; 
+    background-position: center;   
+    background-image: url(./assets/img/background2.jpg);
+    height: 100vh;
+
+}
+
+h1 {
+    margin-bottom: 20px; 
+    color: white;       
+}
+
+#carta {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+    width: 260px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    box-shadow: 0 24px 25px  rgb(16, 15, 15);
+}
+
+.palo1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 3rem;
+    margin-left: 10px;
+
+}
+
+.numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+
+}
+
+.palo2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 3rem;
+    margin-right: 10px;
+
+}
+
+#generarCarta {
+    margin-top: 30px;
+    padding:  10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+#generarCarta:hover {
+    background-color: rgb(148, 148, 119);
+}
+
+.corazones, .diamantes {
+    color: red;
+}
+
+
+.treboles, .picas {
+    color: black;
 }
