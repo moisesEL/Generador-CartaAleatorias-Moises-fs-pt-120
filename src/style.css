@@ -15,7 +15,8 @@ body {
 
 h1 {
     margin-bottom: 20px; 
-    color: white;       
+    color: white;    
+    text-align: center;   
 }
 
 #carta {
